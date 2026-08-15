@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+set -euo pipefail 
 archive_dir=$1
 log_dir=$2
 for f in $(ls $log_dir/*.log); do
